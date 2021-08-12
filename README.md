@@ -27,10 +27,10 @@
  ## Video Walkthrough
 
  Here's a walkthrough of implemented user stories:
+![](https://i.imgur.com/PN1RrW6.gif)
 
- <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
- GIF created with [LiceCap](http://www.cockos.com/licecap/).
+ GIF created with ezgif.com
 
  ## Notes
 
@@ -38,7 +38,7 @@
 
  ## License
 
-     Copyright [2021] [Joshua Harris]
+     Copyright 2021 Joshua Harris
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -51,3 +51,4 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
+
