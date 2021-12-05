@@ -13,8 +13,8 @@
 		F5694D6926C485F7002D5BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5694D6726C485F7002D5BB4 /* Main.storyboard */; };
 		F5694D6B26C485FA002D5BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5694D6A26C485FA002D5BB4 /* Assets.xcassets */; };
 		F5694D6E26C485FA002D5BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5694D6C26C485FA002D5BB4 /* LaunchScreen.storyboard */; };
-		F5694D7926C485FB002D5BB4 /* PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5694D7826C485FB002D5BB4 /* PreworkTests.swift */; };
-		F5694D8426C485FB002D5BB4 /* PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5694D8326C485FB002D5BB4 /* PreworkUITests.swift */; };
+		F5694D7926C485FB002D5BB4 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5694D7826C485FB002D5BB4 /* Tests.swift */; };
+		F5694D8426C485FB002D5BB4 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5694D8326C485FB002D5BB4 /* UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F5694D5E26C485F7002D5BB4 /* Prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5694D5E26C485F7002D5BB4 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5694D6126C485F7002D5BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5694D6326C485F7002D5BB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F5694D6526C485F7002D5BB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,11 +43,11 @@
 		F5694D6A26C485FA002D5BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5694D6D26C485FA002D5BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5694D6F26C485FA002D5BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5694D7426C485FB002D5BB4 /* PreworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5694D7826C485FB002D5BB4 /* PreworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkTests.swift; sourceTree = "<group>"; };
+		F5694D7426C485FB002D5BB4 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5694D7826C485FB002D5BB4 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		F5694D7A26C485FB002D5BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5694D7F26C485FB002D5BB4 /* PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5694D8326C485FB002D5BB4 /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
+		F5694D7F26C485FB002D5BB4 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5694D8326C485FB002D5BB4 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		F5694D8526C485FB002D5BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		F5694D5526C485F7002D5BB4 = {
 			isa = PBXGroup;
 			children = (
-				F5694D6026C485F7002D5BB4 /* Prework */,
-				F5694D7726C485FB002D5BB4 /* PreworkTests */,
-				F5694D8226C485FB002D5BB4 /* PreworkUITests */,
+				F5694D6026C485F7002D5BB4 /* TipCalculator */,
+				F5694D7726C485FB002D5BB4 /* Tests */,
+				F5694D8226C485FB002D5BB4 /* UITests */,
 				F5694D5F26C485F7002D5BB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		F5694D5F26C485F7002D5BB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5694D5E26C485F7002D5BB4 /* Prework.app */,
-				F5694D7426C485FB002D5BB4 /* PreworkTests.xctest */,
-				F5694D7F26C485FB002D5BB4 /* PreworkUITests.xctest */,
+				F5694D5E26C485F7002D5BB4 /* TipCalculator.app */,
+				F5694D7426C485FB002D5BB4 /* TipCalculatorTests.xctest */,
+				F5694D7F26C485FB002D5BB4 /* TipCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5694D6026C485F7002D5BB4 /* Prework */ = {
+		F5694D6026C485F7002D5BB4 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
 				F5694D6126C485F7002D5BB4 /* AppDelegate.swift */,
@@ -107,33 +107,33 @@
 				F5694D6C26C485FA002D5BB4 /* LaunchScreen.storyboard */,
 				F5694D6F26C485FA002D5BB4 /* Info.plist */,
 			);
-			path = Prework;
+			path = TipCalculator;
 			sourceTree = "<group>";
 		};
-		F5694D7726C485FB002D5BB4 /* PreworkTests */ = {
+		F5694D7726C485FB002D5BB4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F5694D7826C485FB002D5BB4 /* PreworkTests.swift */,
+				F5694D7826C485FB002D5BB4 /* Tests.swift */,
 				F5694D7A26C485FB002D5BB4 /* Info.plist */,
 			);
-			path = PreworkTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		F5694D8226C485FB002D5BB4 /* PreworkUITests */ = {
+		F5694D8226C485FB002D5BB4 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
-				F5694D8326C485FB002D5BB4 /* PreworkUITests.swift */,
+				F5694D8326C485FB002D5BB4 /* UITests.swift */,
 				F5694D8526C485FB002D5BB4 /* Info.plist */,
 			);
-			path = PreworkUITests;
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5694D5D26C485F7002D5BB4 /* Prework */ = {
+		F5694D5D26C485F7002D5BB4 /* TipCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5694D8826C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "Prework" */;
+			buildConfigurationList = F5694D8826C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
 			buildPhases = (
 				F5694D5A26C485F7002D5BB4 /* Sources */,
 				F5694D5B26C485F7002D5BB4 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = Prework;
+			name = TipCalculator;
 			productName = Prework;
-			productReference = F5694D5E26C485F7002D5BB4 /* Prework.app */;
+			productReference = F5694D5E26C485F7002D5BB4 /* TipCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F5694D7326C485FB002D5BB4 /* PreworkTests */ = {
+		F5694D7326C485FB002D5BB4 /* TipCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5694D8B26C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "PreworkTests" */;
+			buildConfigurationList = F5694D8B26C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */;
 			buildPhases = (
 				F5694D7026C485FB002D5BB4 /* Sources */,
 				F5694D7126C485FB002D5BB4 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				F5694D7626C485FB002D5BB4 /* PBXTargetDependency */,
 			);
-			name = PreworkTests;
+			name = TipCalculatorTests;
 			productName = PreworkTests;
-			productReference = F5694D7426C485FB002D5BB4 /* PreworkTests.xctest */;
+			productReference = F5694D7426C485FB002D5BB4 /* TipCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F5694D7E26C485FB002D5BB4 /* PreworkUITests */ = {
+		F5694D7E26C485FB002D5BB4 /* TipCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5694D8E26C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "PreworkUITests" */;
+			buildConfigurationList = F5694D8E26C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */;
 			buildPhases = (
 				F5694D7B26C485FB002D5BB4 /* Sources */,
 				F5694D7C26C485FB002D5BB4 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				F5694D8126C485FB002D5BB4 /* PBXTargetDependency */,
 			);
-			name = PreworkUITests;
+			name = TipCalculatorUITests;
 			productName = PreworkUITests;
-			productReference = F5694D7F26C485FB002D5BB4 /* PreworkUITests.xctest */;
+			productReference = F5694D7F26C485FB002D5BB4 /* TipCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5694D5926C485F7002D5BB4 /* Build configuration list for PBXProject "Prework" */;
+			buildConfigurationList = F5694D5926C485F7002D5BB4 /* Build configuration list for PBXProject "TipCalculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5694D5D26C485F7002D5BB4 /* Prework */,
-				F5694D7326C485FB002D5BB4 /* PreworkTests */,
-				F5694D7E26C485FB002D5BB4 /* PreworkUITests */,
+				F5694D5D26C485F7002D5BB4 /* TipCalculator */,
+				F5694D7326C485FB002D5BB4 /* TipCalculatorTests */,
+				F5694D7E26C485FB002D5BB4 /* TipCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5694D7926C485FB002D5BB4 /* PreworkTests.swift in Sources */,
+				F5694D7926C485FB002D5BB4 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5694D8426C485FB002D5BB4 /* PreworkUITests.swift in Sources */,
+				F5694D8426C485FB002D5BB4 /* UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		F5694D7626C485FB002D5BB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F5694D5D26C485F7002D5BB4 /* Prework */;
+			target = F5694D5D26C485F7002D5BB4 /* TipCalculator */;
 			targetProxy = F5694D7526C485FB002D5BB4 /* PBXContainerItemProxy */;
 		};
 		F5694D8126C485FB002D5BB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F5694D5D26C485F7002D5BB4 /* Prework */;
+			target = F5694D5D26C485F7002D5BB4 /* TipCalculator */;
 			targetProxy = F5694D8026C485FB002D5BB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,12 +437,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Prework/Info.plist;
+				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JoshHarris.Prework;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshHarris.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,12 +455,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Prework/Info.plist;
+				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JoshHarris.Prework;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshHarris.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework.app/Prework";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
 			};
 			name = Debug;
 		};
@@ -505,7 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework.app/Prework";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
 			};
 			name = Release;
 		};
@@ -550,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5694D5926C485F7002D5BB4 /* Build configuration list for PBXProject "Prework" */ = {
+		F5694D5926C485F7002D5BB4 /* Build configuration list for PBXProject "TipCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5694D8626C485FB002D5BB4 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5694D8826C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "Prework" */ = {
+		F5694D8826C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5694D8926C485FB002D5BB4 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5694D8B26C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "PreworkTests" */ = {
+		F5694D8B26C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5694D8C26C485FB002D5BB4 /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5694D8E26C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "PreworkUITests" */ = {
+		F5694D8E26C485FB002D5BB4 /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5694D8F26C485FB002D5BB4 /* Debug */,
