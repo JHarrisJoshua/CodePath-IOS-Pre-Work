@@ -1,40 +1,20 @@
- # Pre-work - *Joshua Harris*
+ # Tip Calculator
 
- **Codepath IOS Prework** is a tip calculator application for iOS.
+ **Tip Calculator** is a tip calculator application for iOS.
 
- Submitted by: **Joshua Harris**
-
- Time spent: **2** hours spent in total
+ Created by: **Joshua Harris**
 
  ## User Stories
 
- The following **required** functionality is complete:
-
- * [ x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
- * [ x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
-
- The following **optional** features are implemented:
-
- * [ ] UI animations
- * [ ] Remembering the bill amount across app restarts (if <10mins)
- * [ ] Using locale-specific currency and currency thousands separators.
- * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
-
- The following **additional** features are implemented:
-
- - [x ] The total bill can be split between a specified number of people. Toggle visibility.
+ * User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+ * User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly.
+ * The total bill can be split between a specified number of people. Toggle visibility.
 
  ## Video Walkthrough
 
  Here's a walkthrough of implemented user stories:
+ 
 ![](https://i.imgur.com/PN1RrW6.gif)
-
-
- GIF created with ezgif.com
-
- ## Notes
-
- Describe any challenges encountered while building the app. Using a mac for the first time. Needed to update OS to run xcode. Not familiar with using Github with Mac or xcode. 
 
  ## License
 
